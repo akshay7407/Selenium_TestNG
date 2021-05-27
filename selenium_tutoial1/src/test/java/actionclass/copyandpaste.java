@@ -44,7 +44,7 @@ public class copyandpaste {
 		
 		
 	   
-		// to send capital letter in ext box
+		// to send capital letter in ext boxxx
 //		a.keyDown(wb2, Keys.SHIFT).sendKeys("softteck classes").build().perform();
 		
 		
