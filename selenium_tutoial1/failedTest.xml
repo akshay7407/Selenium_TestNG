@@ -1,0 +1,14 @@
+
+
+<suite name="RetryFailedTestSuite" verbose="1" >
+ 
+ <listeners>
+        <listener class-name="Analyzer.MyTransformer"/>
+  </listeners>
+  
+  <test name="RetryMulitpleFailedTestCases">
+    <classes>
+      <class name="testNG.prioritydemo"/>
+    </classes>
+  </test>
+</suite>

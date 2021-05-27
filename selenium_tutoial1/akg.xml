@@ -1,0 +1,9 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="sanity testing">
+    <classes>
+      <class name="testNG.annotations1"/>
+        <class name ="testNG.multipletab"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

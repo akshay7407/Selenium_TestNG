@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-25T10:10:30Z" name="Suite" finished-at="2021-05-25T10:10:57Z" duration-ms="27065">
+    <groups>
+      <group name="youtube">
+        <method signature="demo3.a1()[pri:0, instance:testng1.demo3@1fd14d74]" name="a1" class="testng1.demo3"/>
+      </group> <!-- youtube -->
+    </groups>
+    <test started-at="2021-05-25T10:10:30Z" name="Test" finished-at="2021-05-25T10:10:57Z" duration-ms="27065">
+      <class name="testng1.demo3">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testng1.demo3@1fd14d74]" started-at="2021-05-25T15:40:30Z" name="setup" finished-at="2021-05-25T15:40:45Z" duration-ms="14588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="m1()[pri:0, instance:testng1.demo3@1fd14d74]" started-at="2021-05-25T15:40:45Z" name="m1" finished-at="2021-05-25T15:40:45Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method signature="m2()[pri:0, instance:testng1.demo3@1fd14d74]" started-at="2021-05-25T15:40:45Z" name="m2" finished-at="2021-05-25T15:40:45Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method signature="a1()[pri:0, instance:testng1.demo3@1fd14d74]" started-at="2021-05-25T15:40:45Z" name="a1" finished-at="2021-05-25T15:40:57Z" duration-ms="11615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a1 -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:testng1.demo3@1fd14d74]" started-at="2021-05-25T15:40:57Z" name="exit" finished-at="2021-05-25T15:40:57Z" duration-ms="807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- testng1.demo3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

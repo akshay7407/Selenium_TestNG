@@ -1,0 +1,17 @@
+
+<suite name="testNG">
+  <test  name="beforeTest">
+
+ <groups>
+<run>
+<exclude name= "gmailg"/>
+<exclude name ="youtube"/>
+</run>
+</groups>
+   
+    <classes>
+      <class name="testng1.demo3"/>
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

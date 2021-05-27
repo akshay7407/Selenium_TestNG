@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RetryFailedTestSuite]">
+  <listeners>
+    <listener class-name="Analyzer.MyTransformer"/>
+  </listeners>
+  <test name="RetryMulitpleFailedTestCases(failed)">
+    <classes>
+      <class name="testNG.prioritydemo">
+        <methods>
+          <include name="youtube"/>
+        </methods>
+      </class> <!-- testNG.prioritydemo -->
+    </classes>
+  </test> <!-- RetryMulitpleFailedTestCases(failed) -->
+</suite> <!-- Failed suite [RetryFailedTestSuite] -->

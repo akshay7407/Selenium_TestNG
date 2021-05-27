@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testNG]">
+  <test name="beforeTest(failed)">
+    <classes>
+      <class name="testng1.demo3">
+        <methods>
+          <include name="a2"/>
+          <include name="setup"/>
+          <include name="a1"/>
+          <include name="m2"/>
+          <include name="m1"/>
+        </methods>
+      </class> <!-- testng1.demo3 -->
+    </classes>
+  </test> <!-- beforeTest(failed) -->
+</suite> <!-- Failed suite [testNG] -->
