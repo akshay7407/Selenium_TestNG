@@ -36,7 +36,7 @@ public class copyandpaste {
 	
 	   Actions a =new Actions (driver);
 	   
-	   // copy paste from one box to anather box
+	   // copy paste from one box to anather boxxx
 		
     	a.keyDown(Keys.CONTROL).sendKeys("a").build().perform();
 		a.keyDown(Keys.CONTROL).sendKeys("c").build().perform();
